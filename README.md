@@ -12,3 +12,20 @@ The primary objectives of this project are:
 * To evaluate model robustness, accuracy, and generalization capability
 * To provide a foundation for future real-time misinformation detection systems
 
+## Machine Learning Workflow 
+### Data Preprocessing
+All raw data undergoes these preprocessing techniques, removing irrelevant noise and reducing dimensionality to increase model efficiency. 
+* Lowercasing Text
+* Regex Cleaning
+* Stopword Removal
+* Lemmatization
+
+### Feature Engineering 
+#### TF-IDF Vectorization
+* Lightweight and effective within the use cases for lightweight Machine Learning models
+#### Contextual Embeddings 
+* More heavyweight with the use of pre-trained models and denser vectorization for each word, resulting in longer processing times
+
+
+
+
