@@ -26,6 +26,15 @@ All raw data undergoes these preprocessing techniques, removing irrelevant noise
 #### Contextual Embeddings 
 * More heavyweight with the use of pre-trained models and denser vectorization for each word, resulting in longer processing times
 
+## Dataset Description 
+The dataset used for this project is shown here: https://www.kaggle.com/datasets/aadyasingh55/fake-news-classification/data
+### Dataset Characteristics
+| Column     | Description           |
+| ---------- | --------------------- |
+| title      | News article headline |
+| text       | Full article content  |
+| label      | Fake (0) or Real (1)  |
+
 
 
 
