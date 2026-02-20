@@ -36,5 +36,62 @@ The dataset used for this project is shown here: https://www.kaggle.com/datasets
 | label      | Fake (0) or Real (1)  |
 
 
+## Evaluation of Methods
 
+Model performance is evaluated using standard classification metrics:
 
+### Evaluation Metrics
+
+#### Accuracy
+* Overall correctness of predictions.
+
+#### Precision
+* Measures how many predicted fake news articles were actually fake.
+
+#### Recall
+* Measures how many actual fake news articles were correctly detected.
+
+#### F1 Score
+* Harmonic mean of precision and recall; useful for imbalanced datasets.
+
+#### Confusion Matrix
+* Visualizes classification performance across classes.
+
+## Comparative Performance Analysis
+
+| Dimension             | Traditional ML        | Transformer Model |
+| --------------------- | --------------------- | ----------------- |
+| Training Speed        | Fast                  | Slower            |
+| Data Requirements     | Lower                 | Higher            |
+| Context Understanding | Limited               | Strong            |
+| Computational Cost    | Low                   | High              |
+| Accuracy (Typical)    | Moderate - High       | High              |
+
+## Future Implementation
+
+Several improvements can extend this project into a production-ready system:
+
+### Model Improvements
+
+* Hyperparameter optimization
+* Ensemble modeling
+* Domain-specific pretraining
+
+### Data Improvements
+
+* Larger and more diverse datasets
+* Multilingual fake news detection
+* Continuous dataset updates
+
+### System Enhancements
+
+* Real-time inference pipeline
+* API deployment for external integration
+* Web dashboard for visualization
+* Explainable AI integration for model transparency
+
+### Research Extensions
+
+* Adversarial robustness testing
+* Bias detection and mitigation
+* Cross-domain generalization studies
